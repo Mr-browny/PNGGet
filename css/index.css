@@ -1,0 +1,1026 @@
+*{
+  font-family: serif;
+}
+/* This section is for icons used */
+.glyphicon.glyphicon{}
+/* This is the end of icon section */
+
+/* This section is for the navigation bar */
+nav .container-fluid{
+  background-color: gold;
+  color: black;
+    /* background-color: transparent!importan////t; */
+}
+nav .container-fluid .navbar-header a{
+  color: black;
+}
+nav .container-fluid ul li.dropdown:hover span#user-account{
+  display: block;
+}
+#user-account{
+  white-space: nowrap;
+  width: 300px;
+}
+
+#user-account .user-account{
+  padding: 10px;
+}
+#user-account .user-account .user-details{
+
+}
+#user-account .user-account .user-details .user-image{
+  width: 30%;
+  height: 100px;
+  float: left;
+}
+#user-account .user-account .user-details .user-image img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+#user-account .user-account .user-details .user-content{
+  width: 70%;
+  height: 100px;
+  float: left;
+  text-align: center;
+}
+#user-account .user-account .user-details a{
+  clear: both;
+  width: 100px;
+  border-radius: 10px;
+  background-color: gold;
+  border: 1px solid gold;
+  box-shadow: 2px 2px 2px black;
+  transition: all ease 0.4s;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+#user-account .user-account .user-details a:hover{
+  box-shadow: 0px 0px 0px black;
+  transition: all ease 0.3s;
+}
+#user-account .user-account .user-action{
+  clear: both;
+  padding-top: 20px;
+
+}
+#user-account .user-account .user-action ul{
+  list-style: none;
+}
+#user-account .user-account .user-action ul li{
+
+}
+#user-account .user-account .user-action ul li a{
+  padding: 10px;
+  white-space: nowrap;
+  display: block;
+  border-top: 2px solid gold;
+  text-decoration: none;
+  margin-left: -40px;
+  transition: all 0.4s ease-in;
+  color: black;
+}
+#user-account .user-account .user-action ul li a:hover{
+  background-color: gold;
+  transition: all 0.3s ease-in;
+  border-radius: 10px;
+  color: white;
+}
+#user-account .user-account .user-action ul li a span.glyphicon-cog{
+  color: blue;
+}
+#user-account .user-account .user-action ul li a span.glyphicon-envelope{
+  color: black;
+}
+#user-account .user-account .user-action ul li a span.fa-circle-o-notch{
+  color: red;
+}
+/* This is the end of the navigation bar */
+
+/* This section is for the main content */
+div.mainContent{
+  margin-top: 52px;
+  /* Remember to adjust this in the media query */
+  /* background-color: red; */
+}
+/* This is the end of the main content */
+
+/* This is the section for the intro  */
+.intro{
+  height: 600px;
+  background-image: url(../img/introBg.jpg);
+  background-size: cover;
+  /* filter: contrast(5%); */
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: red; */
+}
+.intro .intro-content{
+  text-align: center;
+}
+.intro .intro-content .slider{
+  width: 900px;
+  height: 400px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.intro .intro-content .slider .slides{
+  display: block;
+  width: 8000px;
+  height: 400px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.intro .intro-content .slider .slides .slide{
+  float: left;
+  height: 400px;
+  width: 900px;
+  background-color: transparent;
+  /* background-color: red; */
+}
+.intro .intro-content .slider .slides .slide .slide-header{
+  /* background-color: gold; */
+  margin-top: 25%;
+  color: white;
+}
+.intro .intro-content .slider .slides .slide .slide-header h2{
+  font-size: 60px;
+  font-family: serif;
+  font-weight: bold;
+  color: gold;
+}
+.intro .intro-content .slider .slides .slide .slide-header p{
+  font-size: 20px;
+}
+.intro .intro-content .search-bar{
+  padding: 20px 0;
+}
+.intro .intro-content .search-bar .search-cat{
+  padding: 10px 20px;
+  margin-left: 200px;
+  width: 50%;
+  position: relative;
+  border-radius: 20px;
+  font-size: 18px;
+  background-color: transparent;
+  color: white;
+}
+.intro .intro-content .select-cat{
+  /* padding: 15px 20px; */
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-right: 55px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+  right: 110px;
+  z-index: 1;
+  background-color: gold;
+  color: white;
+
+}
+/* This is the end for the intro section */
+
+/* This is the start for the most Download section */
+.mostDownload{
+  margin-bottom: 100px;
+  /* text-align: center; */
+}
+.mostDownload-header{
+  text-align: center;
+}
+.mostDownload-header h2{
+  color: black;
+  text-shadow: 2px 2px 4px;
+}
+.mostDownload-header b{
+  color: gold;
+  text-shadow: 0px 0px 0px ;
+}
+.mostDownload-slider{
+  margin: 10px 10px;
+}
+.mostDownload-slider .mostDownload-slides{
+  list-style: none;
+}
+.mostDownload-slider .mostDownload-slides .mostDownload-slide li{
+  display: inline;
+}
+.mostDownload-slider .mostDownload-slides .mostDownload-slide a img{
+  width: 15%;
+  height: auto;
+  border: 1px dashed black;
+}
+.mostDownload-slider .mostDownload-slides .mostDownload-slide a img:hover{
+  box-shadow: 10px 5px 10px 5px black;
+}
+.mostDownload .action{
+  text-align: center;
+}
+.mostDownload button.seeMore{
+  padding: 10px;
+  border-radius: 10px;
+  border:transparent;
+  font-size: 18px;
+  background-color: gold;
+  box-shadow: 0px 0px 0px 0px;
+  transition: 0.3s;
+  position: absolute;
+}
+.mostDownload button.seeMore:hover{
+    box-shadow: 2px 5px 10px 2px;
+    transition: 0.5s;
+    padding-right: 70px;
+}
+.mostDownload span.glyphicon.glyphicon-arrow-right{
+  position: relative;
+  font-size: 20px;
+  color: green;
+  left: 86px;
+  top: 13px;
+  transition: 0.1s all ease-in;
+  visibility: hidden;
+}
+.mostDownload button.seeMore:hover + span.glyphicon.glyphicon-arrow-right{
+  padding-left: 40px;
+  transition: 0.3s all ease-in;
+  visibility: visible;
+}
+/* This is the end for the most Download section */
+
+/* This is the start for the latest Upload section */
+.latestUpload{
+  background-color: #efefef;
+  padding: 20px 0px;
+  margin-bottom: 50px;
+  clear: both;
+}
+.latestUpload-header{
+  text-align: center;
+}
+.latestUpload-header h2{
+  color: black;
+  text-shadow: 2px 2px 4px;
+}
+.latestUpload-header b{
+  color: gold;
+  text-shadow: 0px 0px 0px ;
+}
+.latestUpload-slider{
+
+}
+.latestUpload-slider .latestUpload-slides{
+  list-style: none;
+
+}
+.latestUpload-slider .latestUpload-slides .latestUpload-slide li{
+  display: inline;
+}
+.latestUpload-slider .latestUpload-slides .latestUpload-slide a{
+
+}
+.latestUpload-slider .latestUpload-slides .latestUpload-slide a img{
+  width: 15%;
+  height: auto;
+  border: 1px dashed black;
+}
+.latestUpload-slider .latestUpload-slides .latestUpload-slide a img:hover{
+   box-shadow: 10px 5px 10px 5px black;
+}
+.latestUpload .action{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.latestUpload button.seeMore{
+  padding: 10px;
+  border-radius: 10px;
+  border:transparent;
+  font-size: 18px;
+  background-color: gold;
+  box-shadow: 0px 0px 0px 0px;
+  transition: 0.3s;
+  position: absolute;
+}
+.latestUpload button.seeMore:hover{
+    box-shadow: 2px 5px 10px 2px;
+    transition: 0.5s;
+    padding-right: 70px;
+}
+.latestUpload span.glyphicon.glyphicon-arrow-right{
+  position: relative;
+  font-size: 20px;
+  color: green;
+  left: 86px;
+  top: 13px;
+  transition: 0.1s all ease-in;
+  visibility: hidden;
+}
+.latestUpload button.seeMore:hover + span.glyphicon.glyphicon-arrow-right{
+  padding-left: 40px;
+  transition: 0.3s all ease-in;
+  visibility: visible;
+}
+/* This is the end for the latest Upload section */
+
+/* This is for the category section starts here */
+.category{
+
+}
+.category .category-header{
+  text-align: center;
+}
+.category .category-header h2{
+  color: black;
+  text-shadow: 2px 2px 4px;
+}
+.category .category-header b{
+  color: gold;
+  text-shadow: 0px 0px 0px ;
+}
+.category .category-grid{
+  text-align: center;
+  padding-left: 100px;
+}
+.category .category-grid .cat{
+  width: 30%;
+  height: 300px;
+  float: left;
+  margin: 5px 5px;
+  box-shadow: 5px 6px 2px 1px rgba(0,0,0, 0.9);
+  transition: 0.3s all ease;
+}
+.category .category-grid .cat:hover{
+  box-shadow: 0px 0px 0px;
+  transition: 0.3s all ease;
+  /* background-color: black; */
+  background-color: rgba(0,0,0, 0.8);
+}
+.category .category-grid .cat.cat-1,
+.category .category-grid .cat.cat-2,
+.category .category-grid .cat.cat-3,
+.category .category-grid .cat.cat-4,
+.category .category-grid .cat.cat-5,
+.category .category-grid .cat.cat-6,
+.category .category-grid .cat.cat-7,
+.category .category-grid .cat.cat-8,
+.category .category-grid .cat.cat-9{
+  background-position: center;
+  background-size: cover;
+  /* background-blend-mode:luminosity; */
+  background-blend-mode:color;
+}
+.category .category-grid .cat.cat-1{
+  background-image: url(../img/cat1.jpg);
+}
+.category .category-grid .cat.cat-2{
+  background-image: url(../img/cat2.jpg);
+}
+.category .category-grid .cat.cat-3{
+  background-image: url(../img/cat3.jpg);
+}
+.category .category-grid .cat.cat-4{
+  background-image: url(../img/cat4.jpg);
+}
+.category .category-grid .cat.cat-5{
+  background-image: url(../img/cat5.jpg);
+}
+.category .category-grid .cat.cat-6{
+  background-image: url(../img/cat6.jpeg);
+}
+.category .category-grid .cat.cat-7{
+  background-image: url(../img/cat7.jpg);
+}
+.category .category-grid .cat.cat-8{
+  background-image: url(../img/cat8.jpg);
+}
+.category .category-grid .cat.cat-9{
+  background-image: url(../img/cat9.jpg);
+}
+.category .category-grid .cat .cat-grid-content{
+  margin-top: 140px;
+  visibility: hidden;
+  transition: 0.3s all ease-in;
+}
+.category .category-grid .cat .cat-grid-content h2{
+  color: gold;
+  animation-name: textFadeOut;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+  animation-direction: reverse;
+}
+.category .category-grid .cat .cat-grid-content p{
+  color: white;
+  animation-name: textFadeOut;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+}
+.category .category-grid .cat:hover .cat-grid-content{
+  visibility: visible;
+  transition: 0.5s all ease-in;
+}
+.category .category-grid .cat:hover .cat-grid-content h2{
+  animation-name: textFadeIn;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+}
+.category .category-grid .cat:hover .cat-grid-content p{
+  animation-name: textFadeIn;
+  animation-duration: 0.9s;
+  animation-fill-mode: forwards;
+  animation-direction: reverse;
+}
+@keyframes textFadeIn {
+  from{transform: translateY(-90px)}
+  to{
+    transform: translateY(-10px);
+  }
+}
+@keyframes textFadeOut {
+  from{transform: translateY(-90px)}
+  to{
+    transform: translateY(-10px);
+  }
+}
+/* This is for the category section ends here */
+
+/* This is for the about us page starts here */
+.about-section,
+.tandc,
+.policy{
+  padding: 40px 20px;
+}
+.about-section .about-header h2,
+.tandc .tandc-header h2,
+.policy .policy-header h2{
+  color: black;
+}
+.about-section .about-header h2 b,
+.tandc .tandc-header h2 b,
+.policy .policy-header h2 b{
+  color: gold;
+}
+/* This is for the about us page ends here */
+
+/* This is for the contact us section starts here */
+.contact{
+  padding: 40px;
+  clear: both;
+  background-color: #efefef;
+  margin-top: 40px;
+}
+.contact .contact-header{
+  text-align: center;
+}
+.contact .contact-header h2{
+  color: black;
+  text-shadow: 2px 2px 4px;
+}
+.contact .contact-header b{
+  color: gold;
+  text-shadow: 0px 0px 0px;
+}
+.contact .contact-form{
+  margin: 20px;
+}
+.contact .contact-form form input.submit{
+  background-color: gold;
+  color: black;
+  padding: 10px;
+}
+/* The contact us section ends here */
+
+/* This section is for the Register and Login page starts here */
+.login{
+  background-color: #efefef;
+  padding: 20px 140px;
+  /* remeber to change this to 40px left:  and right for the media screen */
+}
+.login .login-header{
+  text-align: center;
+}
+.login .login-header h2{
+  color: black;
+  text-shadow: 2px 2px 4px;
+}
+.login .login-header b{
+  color: gold;
+  text-shadow: 0px 0px 0px;
+}
+.login .login-content .form-group a{
+  text-decoration: none;
+}
+.login .login-content .form-group p{
+  float: right;
+}
+.login .login-content .form-group input[type="submit"]{
+  background-color: gold;
+}
+
+/* This section is for the Register and Login page ends here */
+
+/* This section is for the upload page starts here */
+.upload{
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+.upload .upload-header{
+  text-align: center;
+}
+.upload .upload-header h2{
+  color: black;
+  text-shadow: 2px 2px 4px;
+}
+.upload .upload-header b{
+  color: gold;
+  text-shadow: 0px 0px 0px;
+}
+.upload .upload-content{
+  text-align: center;
+}
+.upload .upload-content h4{
+  text-decoration: underline;
+}
+.upload .upload-content ul{
+  list-style: upper-roman;
+}
+.upload .upload-content .upload-action{
+  padding-left:10px;
+}
+.upload .upload-content .upload-action input[type="file"]{
+  border-radius: 3px;
+  padding: 10px;
+  background-color: gold;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.15),
+   0px 10px 0px -5px #eee,
+   0px 10px 1px -4px rgba(0,0,0,0.15),
+   0px 20px 0px -10px #eee,
+   0px 20px 1px -9px rgba(0,0,0,0.15);
+   transition: 0.4s all ease-in;
+}
+.upload .upload-content .upload-action input[type="file"]:hover{
+  box-shadow: 0px 0px 0px rgba(0,0,0,0.15),
+   0px 0px 0px 0px #eee,
+   0px 0px 0px 0px rgba(0,0,0,0.15),
+   0px 0px 0px 0px #eee,
+   0px 0px 0px 0px rgba(0,0,0,0.15);
+   transition: 0.4s all ease-in;
+}
+.upload .uploaded-content{
+  height: 320px;
+  width: 90%;
+  float: left;
+  margin: 10px 0px;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.upload .uploaded-content:nth-child(even){
+  background-color: #efefef;
+}
+.upload .uploaded-content .uploaded-image{
+  height: 300px;
+  width: 45%;
+  float: left;
+}
+.upload .uploaded-content .uploaded-image img{
+  width: 100%;
+  height: 300px;
+}
+.upload .uploaded-content .uploaded-details{
+  height: 300px;
+  width: 45%;
+  float: left;
+  margin-left: 20px;
+
+}
+.upload .uploaded-content .uploaded-details .upload-form{
+  padding: 30px;
+}
+.upload .uploaded-content .uploaded-details .upload-form .form-group label{
+  font-size: 20px;
+  color: gold;
+}
+.upload .uploaded-content .uploaded-details .upload-form .form-group input,
+.upload .uploaded-content .uploaded-details .upload-form .form-group select{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.upload button.uploadBtn{
+  background-color: gold;
+}
+/* This section is for the upload page ends here */
+
+/* This section is for user account page starts here */
+.user-page{
+  padding: 20px 10px;
+}
+.user-page .user-header{
+  text-align: center;
+}
+.user-page .user-header h2{
+  color: black;
+  font-size: 55px;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+}
+.user-page .user-header h4{
+  text-transform: uppercase;
+  color: gold;
+}
+.user-page .user-header p{
+  font-style: italic;
+  width: 50%;
+  margin: 0px auto;
+  text-align: center;
+}
+.user-page .user-header p span{
+  color: gold;
+}
+.user-page .tab .tab-content .tab-content-header{
+  text-align: center;
+}
+.user-page .tab .tab-content .tab-content-header h2{
+  color: black;
+  text-shadow: 2px 2px 4px;
+}
+.user-page .tab .tab-content .tab-content-header h2 select{
+  border-radius: 20px;
+  width: 120px;
+  white-space: nowrap;
+  font-size: 15px;
+  border: 1px solid gold;
+  padding: 5px;
+}
+.user-page .tab .tab-content .tab-content-header b{
+  color: gold;
+  text-shadow: 0px 0px 0px;
+}
+.user-page .tab .tab-content #totalUpload,
+.user-page .tab .tab-content #totalDownload,
+.user-page .tab .tab-content #totalViews,
+.user-page .tab .tab-content #uploadPng,
+.user-page .tab .tab-content #Notification{
+  background-color: #efefef;
+  padding: 20px 0px;
+}
+.user-page .tab .tab-content #totalUpload ul{
+  list-style: none;
+}
+.user-page .tab .tab-content #totalUpload ul li{
+  display: inline;
+}
+.user-page .tab .tab-content #totalUpload ul li img,
+.user-page .tab .tab-content #totalDownload ul li img,
+.user-page .tab .tab-content #totalViews ul li img{
+  width: 15%;
+  height: auto;
+  border: 1px dashed black;
+}
+.user-page .tab .tab-content #totalDownload ul li{
+  display: inline;
+}
+
+.user-page .tab .tab-content #totalViews ul li{
+  display: inline;
+}
+.user-page .tab .tab-content #Notification ul{
+  list-style: none;
+}
+.user-page .tab .tab-content #Notification ul li{
+  background-color: rgba(255, 215, 0, 0.8);
+  padding: 5px 20px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  width:100%;
+  border-radius: 10px;
+}
+.user-page .tab .tab-content #Notification ul li p{
+  color: black;
+}
+.user-page .tab .tab-content #Notification ul li p b{
+  float: right;
+  margin-top: 5px;
+  color: red;
+  cursor: pointer;
+}
+/* This section is for user account page ends here */
+
+/* This section is for the mostDownload and the latest download starts here */
+.tab-content #MostDownload ul{
+  list-style: none;
+}
+.tab-content #MostDownload ul li{
+  display: inline;
+}
+.tab-content #MostDownload ul li a img{
+  width: 15%;
+  height: auto;
+  border: 1px dashed black;
+}
+.tab-content #MostDownload ul li a img:hover{
+  box-shadow: 10px 5px 10px 5px black;
+}
+.tab-content .loadMore{
+  width: 90px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: gold;
+}
+.tab-content #latestUpload ul{
+  list-style: none;
+}
+.tab-content #latestUpload ul li{
+  display: inline;
+}
+.tab-content #latestUpload ul li a img{
+  width: 15%;
+  height: auto;
+  border: 1px dashed black;
+}
+.tab-content #latestUpload ul li a img:hover{
+  box-shadow: 10px 5px 10px 5px black;
+}
+/* This section is for the mostDownload and the latest download ends here */
+ /* This is for the footer part, starts here */
+.footer{
+  background-color: black;
+  clear: both;
+}
+.footer .footer-content{
+
+}
+.footer .footer-content .footer-part1{
+  text-align: left;
+  padding-left: 20px;
+}
+.footer .footer-content .footer-part1 .foot{
+  width: 24%;
+  margin: 40px 2px;
+  padding: 5px;
+  float: left;
+  color: white;
+}
+.footer .footer-content .footer-part1 .foot .foot-header h2{
+  color: gold;
+}
+.footer .footer-content .footer-part1 .foot .foot2-content ul{
+  list-style: none;
+}
+.footer .footer-content .footer-part1 .foot .foot2-content ul li span{
+  color: gold;
+}
+.footer .footer-content .footer-part1 .foot .foot3-content ul{
+  list-style: none;
+}
+.footer .footer-content .footer-part1 .foot .foot3-content ul li span{
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: white;
+}
+.footer .footer-content .footer-part1 .foot .foot3-content ul li span.fa-facebook:hover{
+  color: blue;
+}
+.footer .footer-content .footer-part1 .foot .foot3-content ul li span.fa-twitter:hover{
+  color: lightblue;
+}
+.footer .footer-content .footer-part1 .foot .foot3-content ul li span.fa-instagram:hover{
+  color: orange;
+}
+.footer .footer-content .footer-part1 .foot .foot3-content ul li span.fa-google-plus:hover{
+  color: green;
+}
+.footer .footer-content .footer-part1 .foot .foot4-content form input{
+  position: relative;
+}
+.footer .footer-content .footer-part1 .foot .foot4-content form button{
+  position: relative;
+  bottom: 30px;
+  left: 260px;
+  width: 40px;
+  height: 35px;
+  background-color: gold;
+  margin-top: -5px;
+  border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.footer .footer-content .footer-part2{
+  clear: both;
+  /* text-align: center; */
+  margin-top: 40px;
+  color: gold;
+}
+.footer .footer-content .footer-part2 .foot1{
+  float: right;
+  margin-right: 10px;
+}
+.footer .footer-content .footer-part2 .foot2{
+  margin-left: 10px;
+}
+.footer .footer-content .footer-part2 .foot2 p a{
+  color: white;
+  text-decoration: none;
+}
+  /* This is for the footer part, ends here */
+
+ /* This is for modal section starts here */
+.modal-box{
+  width: 80%;
+  height: 550px;
+  margin: auto 10%;
+  background-color: white;
+  overflow: auto;
+  border-radius: 10px;
+  position: fixed;
+  top: 10%;
+  z-index: 1;
+  display: none;
+
+}
+.modal-box .modal-header{
+  text-align: center;
+  color: gold;
+}
+.modal-box .modal-header span{
+  float: right;
+  margin-top: -30px;
+  color: red;
+  cursor: pointer;
+}
+.modal-box .modal-content .modal-details{
+
+}
+.modal-box .modal-content .modal-details .modal-image{
+  width: 50%;
+  height: 300px;
+  float: left;
+}
+.modal-box .modal-content .modal-details .modal-image img{
+  width: 100%;
+  height: 300px;
+}
+.modal-box .modal-content .modal-details .modal-side-details{
+  width: 50%;
+  height: 300px;
+  float: left;
+  padding: 20px;
+}
+.modal-box .modal-content .modal-details .modal-side-details .form-group label{
+  font-size: 20px;
+  color: black;
+}
+.modal-box .modal-content .modal-details .modal-side-details .form-group input{
+  width: 100%;
+  border-radius: 10px;
+}
+.modal-box .modal-content .modal-details .modal-side-details .form-group input.download{
+  text-align: center;
+  background: gold;
+  margin-top: 20px;
+}
+.modal-box .modal-content .modal-author-files{
+  clear: both;
+  padding-top: 20px;
+  border-top: 5px solid gold;
+}
+.modal-box .modal-content .modal-author-files h4{
+  padding-left: 10px;
+}
+.modal-box .modal-content .modal-author-files ul{
+  list-style: none;
+}
+.modal-box .modal-content .modal-author-files ul li{
+  display: inline;
+}
+.modal-box .modal-content .modal-author-files ul li a img{
+  width: 70px;
+  height: 70px;
+  border: 1px dashed black;
+}
+.modal-box .modal-content .modal-author-files ul li a img:hover{
+  box-shadow: 10px 5px 10px 5px black;
+}
+.modal-box .modal-footer button{
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  padding:10px;
+}
+  /* This is for modal section ends here */
+
+
+
+/* ========================================================================== */
+/* ==========================This is the section for Responsiveness========== */
+/* ========================================================================== */
+@media (min-width: 320px) and (max-width: 500px) {
+  /* This is for the category section starts here */
+
+  .category .category-grid{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .category .category-grid .cat{
+    width: 97%;
+  }
+  /* This is for the category section ends here */
+  /* This is for the login page starts here */
+  .login{
+    padding: 20px 40px;
+    /* remeber to change this to 40px left:  and right for the media screen */
+  }
+    /* This is for the login page ends here */
+
+    /* This is the section for user account starts here */
+
+    .user-page .user-header h2{
+      color: black;
+      font-size: 20px;
+      letter-spacing: 20px;
+      text-transform: uppercase;
+    }
+      /* This is the section for user account ends here */
+
+  /* This is for the footer part, starts here */
+
+ .footer .footer-content .footer-part1{
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+ .footer .footer-content .footer-part1 .foot{
+   width: 97%;
+   margin: 4px 2px;
+ }
+  .footer .footer-content .footer-part1 .foot .foot2-content ul li{
+    display: inline;
+  }
+  .footer .footer-content .footer-part1 .foot .foot3-content ul li{
+    display: inline;
+  }
+ .footer .footer-content .footer-part1 .foot .foot3-content ul li span{
+   margin-left: 20px;
+ }
+ .footer .footer-content .footer-part1 .foot .foot4-content form button{
+   left: 400px;
+ }
+   /* This is for the footer part, ends here */
+}
+@media (min-width: 501px) and (max-width: 777px) {
+  /* This is for the category section starts here */
+
+  .category .category-grid{
+    padding-left: 5px;
+
+  }
+  .category .category-grid .cat{
+    width: 45%;
+  }
+  /* This is for the category section ends here */
+  .login{
+    padding: 20px 40px;
+    /* remeber to change this to 40px left:  and right for the media screen */
+  }
+    /* This is for the login page ends here */
+
+    /* This is the section for user account starts here */
+
+    .user-page .user-header h2{
+      color: black;
+      font-size: 20px;
+      letter-spacing: 20px;
+      text-transform: uppercase;
+    }
+      /* This is the section for user account ends here */
+
+  /* This is for the footer part, starts here */
+
+ .footer .footer-content .footer-part1{
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+ .footer .footer-content .footer-part1 .foot{
+   width: 97%;
+   margin: 4px 2px;
+ }
+  .footer .footer-content .footer-part1 .foot .foot2-content ul li{
+    display: inline;
+  }
+  .footer .footer-content .footer-part1 .foot .foot3-content ul li{
+    display: inline;
+  }
+ .footer .footer-content .footer-part1 .foot .foot3-content ul li span{
+   margin-left: 20px;
+ }
+ .footer .footer-content .footer-part1 .foot .foot4-content form button{
+   left: 440px;
+ }
+   /* This is for the footer part, ends here */
+}
